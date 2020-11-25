@@ -13,6 +13,19 @@ h1 .text-center{
   padding: 2rem;
 }
 
+.profile_img {
+   border-radius: 1rem;
+}
+
+/* ========================================================
+                        CARD
+==========================================================*/
+
+.card_container{
+  display: flex;
+  justify-content: space-between;
+}
+
 .card {
   padding-top: 1.5rem;
   width: 18rem;
@@ -21,16 +34,23 @@ h1 .text-center{
   box-shadow: 0px 0px 25px 5px #A5A5A5;
   }
 
-.css, .js{
-  width: 50%;
-}
-
-.profile_img {
-   border-radius: 1rem;
-}
-
-.img-style {
+.card_img {
   width: 100%;
+}
+
+.card_img.html{
+  width: 85%;
+}
+
+.card_img.css, .card_img.js{
+  width: 60%;
+}
+
+.title {
+  font-size: 32px;
+}
+.sub-title {
+  font-size: 15px;
 }
 
 .check-button {
@@ -41,9 +61,8 @@ h1 .text-center{
   border-radius: 30px;
   margin-bottom: 10px;
 }
-.title {
-  font-size: 32px;
-}
-.sub-title {
-  font-size: 15px;
-}
+
+/* ========================================================
+                     END OF CARD
+==========================================================*/
+
